@@ -1,0 +1,3 @@
+xrun -access +rwc chip_top.v four_input_pipelined_multiplier.v tb_chip_top.v
+simvision chip_top_presynth.vcd &
+
