@@ -20,10 +20,11 @@ The work covers the full digital backend pipeline: writing RTL, verifying it, sy
 
 ## Project Structure
 
-src/rtl         – Golden Verilog source (design intent)
-sim/            – Testbench, waveforms and simulation artifacts
-synth/          – Genus scripts, constraints, gate-level netlist and reports
-pd/             – Innovus floorplan, placement, CTS, routing scripts, and PD reports
-reports/        – Curated timing, power, density and wirelength summaries
-docs/images/    – Visual evidence (waveforms, floorplan, placement, routing)
+- `src/rtl/` – Golden Verilog source (design intent)
+- `sim/` – Testbench, waveforms, and simulation artifacts
+- `synth/` – Genus scripts, constraints, gate-level netlist, and synthesis reports
+- `pd/` – Innovus floorplan, placement, CTS, routing scripts, and PD reports
+- `reports/` – Curated timing, power, density, and wirelength summaries
+- `docs/images/` – Visual evidence (waveforms, floorplan, placement, routing)
+
 
